@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Coming soon.">
+  <meta name="color-scheme" content="light dark">
+  <title>Coming soon</title>
+  <style>
+    :root { color-scheme: light dark; --paper: #f7f6f2; --ink: #292d29; --accent: #71836b; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: Georgia, "Times New Roman", serif; }
+    main { min-height: 100vh; min-height: 100svh; display: grid; place-content: center; padding: 32px; text-align: center; }
+    .dot { display: block; width: 8px; height: 8px; margin: 0 auto 28px; border-radius: 50%; background: var(--accent); }
+    h1 { margin: 0; font-size: clamp(42px, 10vw, 88px); font-weight: 400; line-height: 1.15; letter-spacing: -0.045em; }
+    @media (prefers-color-scheme: dark) { :root { --paper: #1c201d; --ink: #eae9e2; --accent: #a2b497; } }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="dot" aria-hidden="true"></span>
+    <h1>Coming soon</h1>
+  </main>
+</body>
+</html>
